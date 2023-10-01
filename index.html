@@ -19,6 +19,7 @@
       href="css/style.css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
     <script>
       tailwind.config = {
         theme: {
@@ -1046,5 +1047,73 @@
         ></label>
       </nav>
     </div>
+    <!-- DRAG-N-DROP all styles in style.css (not Tailwind)-->
+    <div class="flex items-center justify-center min-h-screen bg-slate-100 relative">
+      <div class="">
+        <div class="row">
+          <div class="col-header start">Начать</div>
+          <div class="col-header progress">В процессе</div>
+          <div class="col-header done">Готовы</div>
+        </div>
+        <div class="row">
+          <div class="placeholder">
+            <div
+              class="item"
+              draggable="true"
+            >
+              Перетащи меня
+            </div>
+          </div>
+          <div class="placeholder"></div>
+          <div class="placeholder"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Slides all styles in style.css (not Tailwind)-->
+    <div class="flex items-center justify-center min-h-screen bg-slate-100 relative">
+      <div class="container">
+        <div
+          class="slide"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1627615646894-ccfa494592be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2534&q=80');
+          "
+        >
+          <h3>Playa Garza</h3>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1607287322237-e9eeee4849a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2494&q=80');
+          "
+        >
+          <h3>Playa Gandoca</h3>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1602190630903-8e743155893a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80');
+          "
+        >
+          <h3>Eco Chontales Waterfall</h3>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1590047301995-bba02b030fa5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80');
+          "
+        >
+          <h3>Monteverde</h3>
+        </div>
+        <div
+          class="slide"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1509243271451-2b84555736ad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80');
+          "
+        >
+          <h3>Folivora</h3>
+        </div>
+      </div>
+    </div>
+    <script src="/js/app.js"></script>
   </body>
 </html>
