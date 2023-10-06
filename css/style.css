@@ -948,10 +948,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 /* SLIDES */
-.container {
+.slide-container {
   width: 100%;
   display: flex;
   padding: 0 20px;
+  position: relative;
 }
 
 .slide {
