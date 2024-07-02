@@ -806,6 +806,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition: color 0.3s;
   cursor: pointer;
 }
+
 .nav__item:hover {
   color: #1539cf;
 }
